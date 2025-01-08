@@ -1,4 +1,13 @@
-## Golang Notes 
-Every Go files start with a package clause. A package is a collection of code that all does similar things. 
-Go files almost have one or more import statements. Each file needs to import other packages before its code can use the code those other package contain. 
+# golang-learning
+Repo to learn golang
 
+## 02 - Echo server
+This folder has a basic echo server build using golang and a package based upon that. 
+It also has docker file in it. 
+
+```
+git clone git@github.com:abhatia05/golang-learning.git
+cd 02-echoServer
+docker build . -t echo-server
+docker run -p 1323:1323 echo-server
+```
